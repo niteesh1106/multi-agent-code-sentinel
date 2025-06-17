@@ -1,0 +1,54 @@
+# Core dependencies
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.7.4
+python-dotenv==1.0.0
+
+# LLM and AI - let pip resolve compatible versions
+langchain>=0.3.0
+langchain-community>=0.3.0
+litellm>=1.17.0
+chromadb>=0.4.0
+tiktoken>=0.5.0
+openai>=1.0.0
+
+# GitHub integration
+PyGithub>=2.1.0
+httpx>=0.26.0
+
+# Queue and async
+celery>=5.3.0
+redis>=5.0.0
+flower>=2.0.0
+
+# Code parsing and analysis
+tree-sitter>=0.20.0
+pygments>=2.17.0
+
+# Utilities
+loguru>=0.7.0
+pyyaml>=6.0
+click>=8.1.0
+colorama>=0.4.6
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.23.0
+pytest-cov>=4.1.0
+pytest-mock>=3.12.0
+
+# Development
+black>=23.12.0
+flake8>=7.0.0
+mypy>=1.8.0
+pre-commit>=3.6.0
+
+# Monitoring
+prometheus-client>=0.19.0
+
+# Additional common dependencies
+requests>=2.31.0
+aiohttp>=3.9.0
+numpy>=1.26.0
+SQLAlchemy>=2.0.0
+typing-extensions>=4.9.0
